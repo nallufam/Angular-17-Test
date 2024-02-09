@@ -19,4 +19,15 @@
         </p>
     </p-accordionTab>
   </p-accordion>
+
+  <p-toast></p-toast>
+  <div class="mt-4">
+    <h4>Testing primeng Toastr</h4>
+    <div class="d-flex gap-3 mt-4 flex-wrap">
+      <button type="button" pButton pRipple (click)="showSuccess()" label="Success" class="p-button-success"></button>
+      <button type="button" pButton pRipple (click)="showInfo()" label="Info" class="p-button-info"></button>
+      <button type="button" pButton pRipple (click)="showWarn()" label="Warn" class="p-button-warning"></button>
+      <button type="button" pButton pRipple (click)="showError()" label="Error" class="p-button-danger"></button>
+    </div>
+  </div>
 </div>
